@@ -170,6 +170,8 @@ footer {
 }
 .footer__links {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
+}
+.footer__links a {
   margin-bottom: 15px;
 }

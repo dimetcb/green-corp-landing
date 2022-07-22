@@ -8,6 +8,16 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="/main.css" />
     <title>Document</title>
   </head>
@@ -20,16 +30,19 @@
       </div>
     </header>
     <section class="about">
-      <div class="about__info">
+      <div
+        class="about__info animate__animated animate__fadeInLeft animate__slow"
+      >
         <h1>Солнечные панели GreenRobotic</h1>
         <p>
           Производите дешёвую экологически чистую электроэнергию из солнечного
           света
         </p>
-
-        <button>Узнать подробнее</button>
+        <button>Узнать подробнее <i class="fas fa-angle-right"></i></button>
       </div>
-      <div class="about__images">
+      <div
+        class="about__images animate__animated animate__fadeInRight animate__slow"
+      >
         <img class="about__sun-image" src="img/sun.png" />
         <img class="about__image" src="img/solar-panel.png" />
       </div>
@@ -76,23 +89,25 @@
           <div class="footer__links">
             <a href="tel:74959999999">+7 (495) 999-99-99</a>
           </div>
-          <div class="footer__group">
-            <h3>Решения для дома:</h3>
-            <div class="footer__links">
-              <a href="#"
-                >Солнечные панели GreenRobotic, Системы солнечных панелей
-                GreenStation.</a
-              >
-            </div>
+        </div>
+        <div class="footer__group">
+          <h3>Решения для дома:</h3>
+          <div class="footer__links">
+            <a href="#">Солнечные панели GreenRobotic</a>
+            <a href="#">Системы солнечных панелей GreenStation</a>
           </div>
-          <div class="footer__group">
-            <h3>Компания</h3>
-            <div class="footer__links">
-              <a href="#">Контакты, Вакансии, СМИ</a>
-            </div>
+        </div>
+        <div class="footer__group">
+          <h3>Компания</h3>
+
+          <div class="footer__links">
+            <a href="#">Контакты</a>
+            <a href="#">Вакансии</a>
+            <a href="#">СМИ</a>
           </div>
         </div>
       </div>
+
       <div class="footer__copyright">GreenCorp © 2021</div>
     </footer>
   </body>
