@@ -42,6 +42,8 @@ button {
 .about__sun-image {
   width: 100px;
   height: 100px;
+  animation: rotation 10s linear;
+  animation-iteration-count: infinite;
 }
 .about h1 {
   font-size: 70px;
@@ -175,3 +177,12 @@ footer {
 .footer__links a {
   margin-bottom: 15px;
 }
+
+@keyframes rotation {
+    0% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+} 
