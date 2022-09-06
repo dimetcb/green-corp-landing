@@ -77,6 +77,7 @@ button {
   background: url("img/back.png") no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 .form__container {
   width: 550px;
@@ -356,6 +357,13 @@ footer {
 .promo__text button i {
   font-size: 15px;
   margin-left: 5px;
+}
+
+.orb-canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
 }
 
 @keyframes rotation {
