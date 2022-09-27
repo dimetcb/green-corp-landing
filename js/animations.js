@@ -38,9 +38,8 @@ document
         .querySelector(".form form")
         .insertBefore(formContainer, document.querySelector(".form__submit"));
     }
-
-    if (event.target.value !== "other") {
-      const otherInput = document.querySelector(".form__other-input");
+    const otherInput = document.querySelector(".form__other-input");
+    if (event.target.value !== "other" && Boolean(otherInput)) {
       document.querySelector(".form form").removeChild(otherInput);
     }
   });
